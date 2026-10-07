@@ -8,7 +8,6 @@ namespace NumbersGame2
         // Create a feild for the users default stats.
         public Random random = new Random();
         public int Number { get; set; }
-
         public int Attempt { get; set; } = 0;
         public int MaxAttempts { get; set; } = 5;
         public bool GameWon { get; set; } = false;
