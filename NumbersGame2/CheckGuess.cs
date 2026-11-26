@@ -65,7 +65,7 @@ namespace NumbersGame2
         // Method to print out welcome message and results
         public void PrintResult()
         {
-            Console.WriteLine("Välkommen! Jag tänker på ett nummer. Kan du gissa vilket? Du får fem försök.");
+            Console.WriteLine("Välkommen! Jag tänker på ett nummer mellan 1-20! Kan du gissa vilket? Du får fem försök.");
             HigherOrLower();
         }
     }
